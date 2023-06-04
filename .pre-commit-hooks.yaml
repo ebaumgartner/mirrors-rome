@@ -3,7 +3,7 @@
     description: 'Format using rome'
     entry: rome format --write
     language: node
-    files: \.[js,jsx,ts,tsx]$
+    files: \.[jt]sx?$
     args: []
     require_serial: false
     additional_dependencies: ["rome@12.1.3"]
